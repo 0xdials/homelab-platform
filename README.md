@@ -34,9 +34,9 @@ trying to glue stuff together with Docker and see what happens.
   Handles DB migrations and serves stuff under `/api`.  
 
 ---
-```
-## File structure
 
+## File structure
+```
 platform/
 ├── api/ # the "app" container
 │ ├── alembic.ini # Alembic config
