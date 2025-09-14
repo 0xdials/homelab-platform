@@ -1,10 +1,8 @@
 # homelab / platform
 
-This is my playground for messing around with a "platform" stack.  
-Think: reverse proxy, DBs, cache, admin tools, and a baby API.  
-
-It’s not production-ready. It’s not meant to be pretty. It’s just me  
-trying to glue stuff together with Docker and see what happens.  
+a wretched little platform stack, might build something using it later.
+basically: a reverse proxy, some dbs, a cache, random admin toys,
+and a baby api duct-taped on top.
 
 ---
 
@@ -52,7 +50,7 @@ platform/
 ## Running it
 
 1. Copy `.env.example` → `.env` and fill in secrets (DB user/pass, etc.).
-2. maybe it works, give it a try:
+2. maybe it works maybe it doesnt i dont know im pretty tired, give it a try:
    `docker compose up -d --build`
 
 
