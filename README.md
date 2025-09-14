@@ -34,7 +34,7 @@ trying to glue stuff together with Docker and see what happens.
   Handles DB migrations and serves stuff under `/api`.  
 
 ---
-
+```
 ## File structure
 
 platform/
@@ -46,6 +46,8 @@ platform/
 ├── docker-compose.yml # main stack definition
 ├── requirements.txt # Python deps for the api
 └── README.md # this file...
+```
+
 
 ## Running it
 
