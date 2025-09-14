@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.venv/
+.env
+
+# Alembic cache
+api/migrations/versions/*.pyc
+
+# Local data volumes (managed by Docker)
+pgdata/
+redisdata/
+
+# Docker backup files
+docker-compose.yml.bak
+
+# IDE/editor stuff
+.vscode/
+.idea/
+*.swp
+
